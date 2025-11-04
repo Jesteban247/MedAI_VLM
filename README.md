@@ -32,7 +32,6 @@ All models are available on 🤗 **Hugging Face Hub**:
 - 🧠 **BraTS 3D**: [Jesteban247/brats-segresnet-monai](https://huggingface.co/Jesteban247/brats-segresnet-monai)
 
 ### Language Models
-- 🧠 **MedGemma Base**: [Jesteban247/medgemma-4b-it](https://huggingface.co/Jesteban247/medgemma-4b-it)
 - 🧠 **MedGemma Base GGUF**: [unsloth/medgemma-4b-it-GGUF](https://huggingface.co/unsloth/medgemma-4b-it-GGUF)
 - 🧠 **MedGemma BraTS FT**: [Jesteban247/brats_medgemma](https://huggingface.co/Jesteban247/brats_medgemma)
 - 🧠 **MedGemma BraTS FT GGUF**: [Jesteban247/brats_medgemma-GGUF](https://huggingface.co/Jesteban247/brats_medgemma-GGUF)
