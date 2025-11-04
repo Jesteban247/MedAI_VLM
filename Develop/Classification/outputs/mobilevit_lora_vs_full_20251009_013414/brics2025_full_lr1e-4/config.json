@@ -1,0 +1,23 @@
+{
+    "timestamp": "2025-10-09 01:36:14",
+    "data_dir": "Data/brain_tumor",
+    "model": "apple/mobilevit-small",
+    "classes": [
+        "glioma",
+        "meningioma",
+        "no_tumor",
+        "pituitary"
+    ],
+    "num_classes": 4,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.0001,
+    "optimizer": "AdamW",
+    "use_lora": false,
+    "model_parameters": {
+        "total": 4940196,
+        "trainable": 4940196,
+        "frozen": 0,
+        "trainable_percentage": 100.0
+    }
+}

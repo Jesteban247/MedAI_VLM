@@ -1,0 +1,20 @@
+================================================================================
+EXPERIMENT COMMANDS - Copy and paste these one by one
+================================================================================
+
+# Experiment 1: r=16, alpha=16, 2 epochs
+python Train.py --epochs 2 --train_split 0.9 --model_name brats_medgemma_r16_alpha16 --lora_r 16 --lora_alpha 16
+
+# Experiment 2: r=4, alpha=4, 2 epochs
+python Train.py --epochs 2 --train_split 0.9 --model_name brats_medgemma_r4_alpha4 --lora_r 4 --lora_alpha 4
+
+# Experiment 3: r=1, alpha=4, 2 epochs
+python Train.py --epochs 2 --train_split 0.9 --model_name brats_medgemma_r1_alpha4 --lora_r 1 --lora_alpha 4
+
+# Experiment 4: r=1, alpha=4, 1 epoch
+python Train.py --epochs 1 --train_split 0.9 --model_name brats_medgemma_r1_alpha4 --lora_r 1 --lora_alpha 4
+
+# Experiment 4: r=1, alpha=2, 1 epoch
+python Train.py --epochs 1 --train_split 0.9 --model_name brats_medgemma_r1_alpha2 --lora_r 1 --lora_alpha 2
+
+

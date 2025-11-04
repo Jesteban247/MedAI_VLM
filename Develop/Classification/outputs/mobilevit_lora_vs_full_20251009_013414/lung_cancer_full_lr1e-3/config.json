@@ -1,0 +1,22 @@
+{
+    "timestamp": "2025-10-09 01:44:31",
+    "data_dir": "Data/lung-cancer",
+    "model": "apple/mobilevit-small",
+    "classes": [
+        "adenocarcinoma",
+        "benign",
+        "squamous_cell_carcinoma"
+    ],
+    "num_classes": 3,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.001,
+    "optimizer": "AdamW",
+    "use_lora": false,
+    "model_parameters": {
+        "total": 4939555,
+        "trainable": 4939555,
+        "frozen": 0,
+        "trainable_percentage": 100.0
+    }
+}

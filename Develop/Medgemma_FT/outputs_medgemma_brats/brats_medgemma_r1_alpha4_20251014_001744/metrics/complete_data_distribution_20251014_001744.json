@@ -1,0 +1,29 @@
+{
+  "experiment_metadata": {
+    "timestamp": "20251014_001744",
+    "random_seed": 3407,
+    "source_dataset": "Jupitern52/TextBraTS"
+  },
+  "data_summary": {
+    "original_textbrats_samples": 369,
+    "available_patients": 369,
+    "patients_used": 369,
+    "total_created_samples": 1107,
+    "train_samples": 996,
+    "test_samples": 111
+  },
+  "train_split": {
+    "image_type_distribution": {
+      "single_slice": 336,
+      "three_slices": 326,
+      "five_slices": 334
+    }
+  },
+  "test_split": {
+    "image_type_distribution": {
+      "three_slices": 43,
+      "five_slices": 35,
+      "single_slice": 33
+    }
+  }
+}

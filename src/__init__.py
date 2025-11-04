@@ -1,0 +1,1 @@
+# MedGemma AI Assistant package

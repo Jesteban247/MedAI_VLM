@@ -1,0 +1,16 @@
+Metric,Value
+Timestamp,20251014_023559
+Training Time (s),1275.33
+Training Time (min),21.26
+Final Loss,0.7768651945216041
+Epochs,2
+Steps,Full epochs
+Train Samples,996
+Test Samples,111
+Train Split,0.9
+Learning Rate,0.0002
+LoRA Rank,16
+LoRA Alpha,16
+Batch Size,2
+Gradient Accumulation,4
+Validation Every N Steps,10

@@ -1,0 +1,17 @@
+aiohttp==3.13.1
+asyncio==4.0.0
+fastapi==0.119.1
+grad-cam==1.5.5
+gradio==5.49.1
+kaleido==1.1.0
+monai==1.5.1
+nibabel==5.3.2
+onnx==1.19.1
+onnxruntime==1.23.2
+peft==0.17.1
+plotly==6.3.1
+torch==2.9.0
+transformers==4.57.1
+ultralytics==8.3.220
+uvicorn==0.38.0
+accelerate==1.11.0

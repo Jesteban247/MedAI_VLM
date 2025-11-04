@@ -1,0 +1,2 @@
+epoch,loss,avg_dice,avg_precision,avg_recall,avg_accuracy,Tumor Core (TC)_dice,Tumor Core (TC)_precision,Tumor Core (TC)_recall,Tumor Core (TC)_accuracy,Whole Tumor (WT)_dice,Whole Tumor (WT)_precision,Whole Tumor (WT)_recall,Whole Tumor (WT)_accuracy,Enhancing Tumor (ET)_dice,Enhancing Tumor (ET)_precision,Enhancing Tumor (ET)_recall,Enhancing Tumor (ET)_accuracy,epoch_time_sec
+150,0.192009,0.789284,0.847355,0.771444,0.987064,0.774855,0.855540,0.762153,0.998849,0.873995,0.937550,0.838933,0.998587,0.719003,0.748975,0.713246,0.963757,0.00

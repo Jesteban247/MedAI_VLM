@@ -1,0 +1,2 @@
+phase,loss,time_seconds,avg_accuracy,adenocarcinoma_accuracy,benign_accuracy,squamous_cell_carcinoma_accuracy,avg_precision,adenocarcinoma_precision,benign_precision,squamous_cell_carcinoma_precision,avg_recall,adenocarcinoma_recall,benign_recall,squamous_cell_carcinoma_recall,avg_f1,adenocarcinoma_f1,benign_f1,squamous_cell_carcinoma_f1,avg_auc,adenocarcinoma_auc,benign_auc,squamous_cell_carcinoma_auc
+test,0.0001250661517436432,0.7758369445800781,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0,1.0

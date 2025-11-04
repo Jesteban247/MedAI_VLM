@@ -1,0 +1,32 @@
+{
+    "timestamp": "2025-10-09 02:03:58",
+    "data_dir": "Data/chest-xray",
+    "model": "apple/mobilevit-small",
+    "classes": [
+        "COVID19",
+        "NORMAL",
+        "PNEUMONIA",
+        "TURBERCULOSIS"
+    ],
+    "num_classes": 4,
+    "batch_size": 32,
+    "epochs": 10,
+    "learning_rate": 0.0005,
+    "optimizer": "AdamW",
+    "use_lora": true,
+    "model_parameters": {
+        "total": 4971176,
+        "trainable": 30980,
+        "frozen": 4940196,
+        "trainable_percentage": 0.62
+    },
+    "lora_config": {
+        "r": 4,
+        "alpha": 32,
+        "dropout": 0.1,
+        "target_modules": [
+            "query",
+            "value"
+        ]
+    }
+}

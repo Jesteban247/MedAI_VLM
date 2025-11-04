@@ -1,0 +1,41 @@
+BraTS 3D Segmentation Training Configuration with MONAI + Accelerate
+==================================================
+
+Training Date: 2025-10-09 06:01:59
+
+Data Configuration:
+  Data Directory: Data/BraTS2020_TrainingData/MICCAI_BraTS2020_TrainingData
+  ROI Size (Inference): (128, 128, 128)
+  Number of Classes: 3
+  Train Split: 80.0%
+  Val Split: 5.0%
+  Test Split: 15.0%
+  No Augmentation (Original Images Only)
+
+Model Configuration:
+  Model: SegResNet
+  Input Channels: 4
+  Output Channels: 3
+  Initial Filters: 16
+
+Training Configuration:
+  Framework: Accelerate
+  Mixed Precision: fp16
+  Optimizer: Adam
+  Batch Size (per GPU): 2
+  Batch Size (Val/Test per GPU): 1
+  Epochs: 150
+  Learning Rate: 0.0001
+  Weight Decay: 1e-05
+  Validation Interval: 5
+  Use Caching: False
+
+Hardware Configuration:
+  Number of Workers per GPU: 8
+  Pin Memory: True
+  Prefetch Factor: 4
+
+Class Names (Multi-Label):
+  Channel 0: Tumor Core (TC)
+  Channel 1: Whole Tumor (WT)
+  Channel 2: Enhancing Tumor (ET)
