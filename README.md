@@ -8,10 +8,7 @@
 
 ## 🎥 Demo Video
 
-<video width="100%" controls>
-  <source src="https://github.com/Jesteban247/MedAI_VLM/raw/main/Video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Demo Video](Images/demo_thumbnail.png)](https://drive.google.com/file/d/1Ny6ME_Vf9PkxZCW7kIvOm7X-ebB_OeM_/view?usp=share_link)
 
 ## 🤖 Integrated Models
 
