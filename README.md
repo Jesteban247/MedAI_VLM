@@ -10,6 +10,10 @@
 
 [![Demo Video](Images/demo_thumbnail.png)](https://drive.google.com/file/d/1Ny6ME_Vf9PkxZCW7kIvOm7X-ebB_OeM_/view?usp=share_link)
 
+<p align="center">
+<img src="Images/demo_thumbnail_2.png" width="45%" /> <img src="Images/demo_thumbnail_3.png" width="45%" />
+</p>
+
 ## 🤖 Integrated Models
 
 All models are available on 🤗 **Hugging Face Hub**:
